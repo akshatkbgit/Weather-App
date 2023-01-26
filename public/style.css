@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Open+Sans&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/assets/rainbow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p {
+    color: rgba(0, 0, 0, 0.4);
+}
+.weather-img {
+    height: 4rem;
+    margin: 4%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+.center-div {
+    padding-top: 10%;
+}
+
+.collapse{
+    visibility: collapse;
+}
+.move{
+    transform: translateY(-10%);
+    transition: transform 0.5s;
+}
+.fas{
+    color: #229ccd;
+}

@@ -1,0 +1,19 @@
+<%-include('header.ejs')-%>
+
+    <div class="text-center center-div">
+        <div class="container shadow rounded w-50 border py-5 p-5">
+            <div class="title">
+                <object class="svg" data="/assets/weather.svg" type="image/svg+xml"></object> 
+                <img class="weather-img" src="/assets/sunny.png" alt="">
+            </div>
+            <form class="m-3 p-3" action="/" method="post">
+                <div class="input-group">
+                    <input class="form-control" id="cityInput" type="text" name="cityName" placeholder="Enter City Name">
+                    <button class="btn btn-success" id="button-addon2" type="submit">Go</button>
+                </div>
+            </form>
+            <p>By Akshat K Baranwal</p>
+        </div>    
+    </div>
+
+<%-include('footer.ejs')-%>
